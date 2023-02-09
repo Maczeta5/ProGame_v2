@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #333;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.one {
+  background-color: #aaa;
+}
+
+.two {
+  background-color: #ddd;
+}
+
+.three {
+  background-color: #fff;
+}
+
+.navbar {
+  height: 60px;
+  text-transform: uppercase;
+  background-color: #7b68ee;
+}
+.navbar .navbar-btn {
+  padding: 10px;
+  border: none;
+  font-size: 1.8rem;
+  color: #000;
+  transition: color 0.3s, transform 0.3s;
+}
+.navbar .navbar-btn:hover {
+  color: #fff;
+  transform: scale(1.5);
+}
+.navbar .navbar-theme {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.navbar .navbar-theme .fas {
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+.navbar .navbar-theme span {
+  transition: color 0.3s;
+}
+.navbar .navbar-theme:hover .fas,
+.navbar .navbar-theme:hover span {
+  color: #fff;
+}
+.navbar .navbar-items .nav-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
