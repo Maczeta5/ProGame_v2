@@ -15,7 +15,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="40">
 
-    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 ps-3 pe-3">
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 ps-4 pe-4">
     <div class="container overflow-y: scroll">
         <a class="navbar-theme navbar-brand" href="#home"><i class="fas fa-fire"></i><span>Pro</span>Sports</a>
         <button class="navbar-toggler navbar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -37,10 +37,12 @@
     <div class="hero-img">
         <div class="hero-shadow"></div>
         <div class="hero-text">
-            <h1 class="header-title">witajcie w prosports</h1>
+            <h1 class="header-title">witaj w prosports</h1>
             <p class="header-info">Szukasz niezawodnego sprzętu do gry w tenisa? Zapoznaj się z naszą ofertą!</p>
         </div>
-        <button class="arrow"></i></button>
+        <a href="#about-us">
+            <div class="ball-icon"></div>
+        </a>
     </div>
 </header>
 
@@ -146,22 +148,27 @@
         <section id="contact" class="contact">
     <h2 class="section-title">kontakt</h2>
 
-
+    <form class="contact-form">
+        <label class="label-title">Podaj adres e-mail</label>
+        <input type="text" placeholder="Wpisz adres e-mail">
+        <label class="label-title">Wiadomość</label>
+        <textarea placeholder="Treść wiadomości"></textarea>
+        <button class="form-btn">wyślij</button>
+    </form>
     <div class="social-media">
         <div class="bg-shadow"></div>
         <div class="social-media-items">
             <p class="text">Zachęcamy do odwiedzenia naszych profili w mediach społecznościowych</p>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
+            <div class="icons-box">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </div>
-    <form class="contact-form">
-        <label>Podaj adres e-mail</label>
-        <input type="text">
-        <label>Wiadomość</label>
-        <textarea cols="50" rows="10"></textarea>
-        <button class="form-btn">wyślij</button>
-    </form>
+
+
+
 </section>
         <footer class="footer">
     <div class="footer-area">
